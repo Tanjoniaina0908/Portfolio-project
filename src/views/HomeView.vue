@@ -70,16 +70,7 @@ html, body, #app {
   padding: 20px;
 }
 
-.typed-text {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #42b883;
-  margin-bottom: 1rem;
-  border-right: 3px solid #42b883;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: blink 1s step-start infinite;
-}
+
 
 .subtitle {
   font-size: 1.3rem;
@@ -87,8 +78,19 @@ html, body, #app {
   color: #ccc;
 }
 
+.typed-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #4dd0e1;
+  margin-bottom: 1rem;
+  border-right: 3px solid #4dd0e1;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: blink 1s step-start infinite;
+}
+
 .cta-button {
-  background-color: #42b883;
+  background-color: #4dd0e1;
   color: #121212;
   padding: 0.8rem 1.5rem;
   border-radius: 8px;
@@ -98,12 +100,13 @@ html, body, #app {
 }
 
 .cta-button:hover {
-  background-color: #369e6f;
+  background-color: #26c6da;
   color: white;
 }
 
 @keyframes blink {
   0%, 100% { border-color: transparent; }
-  50% { border-color: #42b883; }
+  50% { border-color: #4dd0e1; }
 }
+
 </style>
